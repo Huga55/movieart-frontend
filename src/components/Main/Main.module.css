@@ -1,0 +1,50 @@
+.main {
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.main__title {
+    margin-bottom: 20px;
+}
+
+.main__tools {
+    margin-bottom: 10px;
+}
+
+.main__sort {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.main__tool {
+    margin: 0 30px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main__tool svg {
+    transition: .3s;
+}
+
+.main__tool:hover svg {
+    transform: rotateY(180deg);
+}
+
+.main__sort-date {
+    color: cornflowerblue;
+}
+
+.main__numb {
+    width: 10px;
+    height: 4px;
+    margin: 0 5px;
+    color: cornflowerblue;
+    transition: .3s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.main__numb:hover {
+    transform: translateY(-5px);
+}

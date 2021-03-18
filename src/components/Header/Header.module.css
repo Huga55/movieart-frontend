@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+}
+
+.header__toolbar {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

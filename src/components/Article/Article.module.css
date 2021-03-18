@@ -1,0 +1,59 @@
+.article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    position: relative;
+}
+
+.article__title {
+    text-align: center;
+}
+
+.article__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article__img {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+}
+
+.article__info {
+    width: 70%;
+}
+
+.article__title {
+    margin-bottom: 20px;
+}
+
+.article__year {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.description__description {
+    font-size: 18px;
+}
+
+.article__more {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    transition: .4s;
+}
+
+.article__more:hover {
+    transform: rotate(-15deg);
+}
+
+.article__link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
