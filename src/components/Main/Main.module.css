@@ -28,11 +28,19 @@
 }
 
 .main__tool:hover svg {
-    transform: rotateY(180deg);
+
 }
 
 .main__sort-date {
     color: cornflowerblue;
+}
+
+.main__sort-date_active svg {
+    transition: .3s;
+}
+
+.main__sort-date_active svg {
+    transform: rotateX(180deg);
 }
 
 .main__numb {
@@ -43,6 +51,10 @@
     transition: .3s;
     cursor: pointer;
     display: inline-block;
+}
+
+.main__numb_active {
+    text-decoration: underline;
 }
 
 .main__numb:hover {

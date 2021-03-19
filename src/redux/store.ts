@@ -1,11 +1,12 @@
 import thunk from "redux-thunk";
 import {applyMiddleware, combineReducers, createStore} from "redux";
 import {composeWithDevTools} from "redux-devtools-extension";
+import articleReducer from "./artticleReducer";
 
 const initialState = {};
 
 const rootReducer = combineReducers({
-
+    article: articleReducer,
 })
 
 type RootReducerType = typeof rootReducer
