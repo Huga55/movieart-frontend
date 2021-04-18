@@ -71,8 +71,9 @@ const Main = () => {
                 </div>
                 <div className={c.main__pagination}>
                     {
-                        pages?.map((numb) =>
+                        pages?.map((numb, index) =>
                             <span onClick={() => setCurrentPage(numb)}
+                                  key={index}
                                   className={`${c.main__numb} ${currentPage === numb? c.main__numb_active : ""}`}>
                                 {numb}
                             </span>)
